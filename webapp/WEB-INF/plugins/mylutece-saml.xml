@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><plug-in>
+   <name>mylutece-saml</name>
+   <class>fr.paris.lutece.plugins.mylutece.modules.saml.service.SAMLPlugin</class>
+   <version>2.0.2</version>
+   <description>module.mylutece.saml.module.description</description>
+   <documentation/>
+   <installation/>
+   <changes/>
+   <user-guide/>
+   <provider>module.mylutece.saml.module.provider</provider>
+   <provider-url>http://lutece.paris.fr</provider-url>
+   <icon-url>images/admin/skin/plugins/mylutece/mylutece.png</icon-url>
+   <copyright>Copyright 2001-2009 Mairie de Paris</copyright>
+	<core-version-dependency>
+		<min-core-version>2.4.1</min-core-version>
+		<max-core-version/>	
+	</core-version-dependency>
+	
+	<!-- if the plugin must have a connection pool with parameter : 1 - yes, 0 - no -->   
+   <db-pool-required>0</db-pool-required>   
+</plug-in>

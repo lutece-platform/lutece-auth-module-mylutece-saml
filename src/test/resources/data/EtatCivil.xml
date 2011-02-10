@@ -1,0 +1,28 @@
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Dictao (Dictao) -->
+<md:EntityDescriptor ID="Paris-EtatCivil" entityID="urn:fs:etatcivil.paris.fr:1.0" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:query="urn:oasis:names:tc:SAML:metadata:ext:query" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">
+	<md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://etatcivil.paris.fr:4443/etatcivil/jsp/site/plugins/mylutece/DoMyLuteceLogin.jsp" index="0" isDefault="true"/>
+		<md:AttributeConsumingService index="1" isDefault="true">
+			<md:ServiceName xml:lang="en-us">Etat Civil - Attribute Set</md:ServiceName>
+			<md:ServiceDescription xml:lang="en-us"/>
+			<md:RequestedAttribute FriendlyName="user.name.civility" Name="user.name.civility" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="false"/>
+			<md:RequestedAttribute FriendlyName="user.name.given" Name="user.name.given" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="false"/>
+			<md:RequestedAttribute FriendlyName="user.name.family" Name="user.name.family" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="false"/>
+			<md:RequestedAttribute FriendlyName="user.home-info.postal.street.number" Name="user.home-info.postal.street.number" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="false"/>
+			<md:RequestedAttribute FriendlyName="user.home-info.postal.street.suffix" Name="user.home-info.postal.street.suffix" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="false"/>
+			<md:RequestedAttribute FriendlyName="user.home-info.postal.street.type" Name="user.home-info.postal.street.type" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="false"/>
+			<md:RequestedAttribute FriendlyName="user.home-info.postal.street.name" Name="user.home-info.postal.street.name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="false"/>
+			<md:RequestedAttribute FriendlyName="user.home-info.postal.postalcode" Name="user.home-info.postal.postalcode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="false"/>
+			<md:RequestedAttribute FriendlyName="user.home-info.postal.country" Name="user.home-info.postal.country" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="false"/>
+			<md:RequestedAttribute FriendlyName="user.home-info.postal.stateprov" Name="user.home-info.postal.stateprov" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="false"/>
+			<md:RequestedAttribute FriendlyName="user.home-info.postal.city" Name="user.home-info.postal.city" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="false"/>
+			<md:RequestedAttribute FriendlyName="user.home-info.telecom.telephone.number" Name="user.home-info.telecom.telephone.number" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="false"/>
+			<md:RequestedAttribute FriendlyName="user.home-info.online.email" Name="user.home-info.online.email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="en-us">Mairie de Paris</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="en-us">Mairie de Paris</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="en-us">http://www.paris.fr</md:OrganizationURL>
+	</md:Organization>
+</md:EntityDescriptor>

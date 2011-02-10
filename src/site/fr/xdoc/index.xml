@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>Introduction</title>
+    </properties>
+    <body>
+        <section name="Descriptif du module SAML pour MyLutece">
+            <subsection name="Introduction">
+                <img src="images/shibboleth.jpg" />
+                <p>Ce module d'authentification pour MyLutece permet d'utiliser SAML 2.0 comme protocole d'authentification
+                en utilisant l'implémentation du projet Shibboleth.</p>
+            </subsection>
+        </section>
+    </body>
+</document>

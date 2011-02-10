@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>Introduction</title>
+    </properties>
+    <body>
+        <section name="Overview of the module">
+            <p>
+                <img src="images/shibboleth.jpg" />
+            </p>
+            <subsection name="Introduction">
+                <p>This module let use SAML v2.0 to authenticate users in Lutece using Shibboleth implementation</p>
+            </subsection>
+        </section>
+    </body>
+</document>

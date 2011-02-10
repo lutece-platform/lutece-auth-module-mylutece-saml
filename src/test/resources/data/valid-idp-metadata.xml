@@ -1,0 +1,93 @@
+<md:EntityDescriptor entityID="urn:fi:dictao:shib:1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<md:IDPSSODescriptor protocolSupportEnumeration="urn:mace:shibboleth:1.0 urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:Extensions>
+			<shibmd:Scope regexp="false">paris.fr</shibmd:Scope>
+		</md:Extensions>
+		<md:KeyDescriptor>
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>
+MIIEijCCA3KgAwIBAgIBATANBgkqhkiG9w0BAQUFADCBgDERMA8GA1UEAxMIcGFy
+aXMuZnIxCzAJBgNVBAYTAmZyMRYwFAYDVQQIEw1JbGUgZGUgRnJhbmNlMQ4wDAYD
+VQQHEwVQYXJpczEYMBYGA1UEChMPTWFpcmllIGRlIFBhcmlzMRwwGgYJKoZIhvcN
+AQkBFg1yb290QHBhcmlzLmZyMB4XDTA4MDcyODE1NDExMloXDTA5MDcyODE1NDEx
+MlowfjELMAkGA1UEBhMCZnIxFjAUBgNVBAgTDUlsZSBkZSBGcmFuY2UxGDAWBgNV
+BAoTD01haXJpZSBkZSBQYXJpczEMMAoGA1UECxMDaWRwMREwDwYDVQQDEwhwYXJp
+cy5mcjEcMBoGCSqGSIb3DQEJARYNcm9vdEBwYXJpcy5mcjCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBANEPIXL2c+XQA4BzB37adZKWf7UdyTMdSx3oJ9lg
+Kum3CgN6fQcAGsjLV7XvGIpt76q/85GfjtvP0X6SpUJ8W62L4OV11niW24vQ4lqQ
+e0bCkXBgtCVE2a/gdWq6GcR719GOIqyzRXxVsuDTgBz/1wsF2bNyGKeppCCA064S
+bGeDhLj7Eo5bczhq30PS3iByZuYZw7wflT5OMpXlAgXHiiYaQhJVqzxOVlfQ4omC
+ZY/oS9fZ8jSz256ZyeHuw6tjxj+tHlHrPkLb0iCJT+Ls+FbXCOg83CYhs/K3aqJN
+i7n/xS8phWH7ucogVITXqwmoD2ghQsydGj63qw+9y5Op6csCAwEAAaOCAQ4wggEK
+MAkGA1UdEwQCMAAwHQYDVR0OBBYEFC7GqIDoLQ/Xbf3+c1JM3vH8e+AwMIGtBgNV
+HSMEgaUwgaKAFA6LzI1xW8rp9AhPDGGQtraKrKtKoYGGpIGDMIGAMREwDwYDVQQD
+EwhwYXJpcy5mcjELMAkGA1UEBhMCZnIxFjAUBgNVBAgTDUlsZSBkZSBGcmFuY2Ux
+DjAMBgNVBAcTBVBhcmlzMRgwFgYDVQQKEw9NYWlyaWUgZGUgUGFyaXMxHDAaBgkq
+hkiG9w0BCQEWDXJvb3RAcGFyaXMuZnKCAQAwLgYJYIZIAYb4QgEEBCEWH2h0dHBz
+Oi8vd3d3LnBhcmlzLmZyL2NhLWNybC5wZW0wDQYJKoZIhvcNAQEFBQADggEBAAL8
+Lkd+ybbnNk1Ws40GTBimYfS2r7xSuQVjKLx40EaPXOznFng4TcC+vxue1PKw72lo
+d+yW2r7IDOuFJi5Bo3nvma27QCYRaH/Dd0H7CpoGTWYyvUCox5tNIPwuQMMbbfkI
+1h+ymHmFyuSrKYZjCSDY/ZOBN09xq8/8kzYia5sRSam+j7TNIyrQK789wo3F4mkn
+kXNkej2XQRpYj13Bc7u2Aw0B5y5P14YloCN5SDXx0/ooA8BzEdpZriLJX2+46UxQ
+GQDUMO0Szj5/LgT/pYghFkLs39rNCS/FohflYyK1FZydIfR5DLCLThaZHwsj8WFh
+t9c0p23RI78oc1TvAAk=
+                    </ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.paris.fr:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1"/>
+		<md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.paris.fr:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2"/>
+		<md:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</md:NameIDFormat>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.paris.fr/idp/profile/Shibboleth/SSO"/>
+		<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.paris.fr/idp/profile/SAML2/POST/SSO"/>
+		<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.paris.fr/idp/profile/SAML2/POST-SimpleSign/SSO"/>
+		<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.paris.fr/idp/profile/SAML2/Redirect/SSO"/>
+	</md:IDPSSODescriptor>
+	<md:AttributeAuthorityDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:Extensions>
+			<shibmd:Scope regexp="false">paris.fr</shibmd:Scope>
+		</md:Extensions>
+		<md:KeyDescriptor>
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>
+MIIEijCCA3KgAwIBAgIBATANBgkqhkiG9w0BAQUFADCBgDERMA8GA1UEAxMIcGFy
+aXMuZnIxCzAJBgNVBAYTAmZyMRYwFAYDVQQIEw1JbGUgZGUgRnJhbmNlMQ4wDAYD
+VQQHEwVQYXJpczEYMBYGA1UEChMPTWFpcmllIGRlIFBhcmlzMRwwGgYJKoZIhvcN
+AQkBFg1yb290QHBhcmlzLmZyMB4XDTA4MDcyODE1NDExMloXDTA5MDcyODE1NDEx
+MlowfjELMAkGA1UEBhMCZnIxFjAUBgNVBAgTDUlsZSBkZSBGcmFuY2UxGDAWBgNV
+BAoTD01haXJpZSBkZSBQYXJpczEMMAoGA1UECxMDaWRwMREwDwYDVQQDEwhwYXJp
+cy5mcjEcMBoGCSqGSIb3DQEJARYNcm9vdEBwYXJpcy5mcjCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBANEPIXL2c+XQA4BzB37adZKWf7UdyTMdSx3oJ9lg
+Kum3CgN6fQcAGsjLV7XvGIpt76q/85GfjtvP0X6SpUJ8W62L4OV11niW24vQ4lqQ
+e0bCkXBgtCVE2a/gdWq6GcR719GOIqyzRXxVsuDTgBz/1wsF2bNyGKeppCCA064S
+bGeDhLj7Eo5bczhq30PS3iByZuYZw7wflT5OMpXlAgXHiiYaQhJVqzxOVlfQ4omC
+ZY/oS9fZ8jSz256ZyeHuw6tjxj+tHlHrPkLb0iCJT+Ls+FbXCOg83CYhs/K3aqJN
+i7n/xS8phWH7ucogVITXqwmoD2ghQsydGj63qw+9y5Op6csCAwEAAaOCAQ4wggEK
+MAkGA1UdEwQCMAAwHQYDVR0OBBYEFC7GqIDoLQ/Xbf3+c1JM3vH8e+AwMIGtBgNV
+HSMEgaUwgaKAFA6LzI1xW8rp9AhPDGGQtraKrKtKoYGGpIGDMIGAMREwDwYDVQQD
+EwhwYXJpcy5mcjELMAkGA1UEBhMCZnIxFjAUBgNVBAgTDUlsZSBkZSBGcmFuY2Ux
+DjAMBgNVBAcTBVBhcmlzMRgwFgYDVQQKEw9NYWlyaWUgZGUgUGFyaXMxHDAaBgkq
+hkiG9w0BCQEWDXJvb3RAcGFyaXMuZnKCAQAwLgYJYIZIAYb4QgEEBCEWH2h0dHBz
+Oi8vd3d3LnBhcmlzLmZyL2NhLWNybC5wZW0wDQYJKoZIhvcNAQEFBQADggEBAAL8
+Lkd+ybbnNk1Ws40GTBimYfS2r7xSuQVjKLx40EaPXOznFng4TcC+vxue1PKw72lo
+d+yW2r7IDOuFJi5Bo3nvma27QCYRaH/Dd0H7CpoGTWYyvUCox5tNIPwuQMMbbfkI
+1h+ymHmFyuSrKYZjCSDY/ZOBN09xq8/8kzYia5sRSam+j7TNIyrQK789wo3F4mkn
+kXNkej2XQRpYj13Bc7u2Aw0B5y5P14YloCN5SDXx0/ooA8BzEdpZriLJX2+46UxQ
+GQDUMO0Szj5/LgT/pYghFkLs39rNCS/FohflYyK1FZydIfR5DLCLThaZHwsj8WFh
+t9c0p23RI78oc1TvAAk=
+
+                    </ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.paris.fr:8443/idp/profile/SAML1/SOAP/AttributeQuery"/>
+		<md:AttributeService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.paris.fr:8443/idp/profile/SAML2/SOAP/AttributeQuery"/>
+		<md:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</md:NameIDFormat>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+	</md:AttributeAuthorityDescriptor>
+</md:EntityDescriptor>
