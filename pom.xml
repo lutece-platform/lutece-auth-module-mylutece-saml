@@ -15,14 +15,14 @@
 		<repository>
 			<id>lutece</id>
 			<name>luteceRepository</name>
-			<url>http://dev.lutece.paris.fr/maven_repository</url>
+			<url>http://dev.lutece.paris.fr/maven_repository/module-mylutece-saml</url>
 			<layout>default</layout>
 		</repository>
 		<repository>
 			<id>shibboleth.internet2.edu</id>
 			<name>Internet2</name>
 			<layout>default</layout>
-			<url>http://shibboleth.internet2.edu/downloads/maven2</url>
+			<url>http://shibboleth.internet2.edu/downloads/maven2/module-mylutece-saml</url>
 		</repository>
 	</repositories>
 	<dependencies>
@@ -66,8 +66,8 @@
 		<jiraComponentId>10142</jiraComponentId>
 	</properties>
     <scm>
-        <connection>scm:svn:http://dev.lutece.paris.fr/svn/lutece/portal/trunk/plugins/authentication</connection>
-        <developerConnection>scm:svn:https://dev.lutece.paris.fr/svn/lutece/portal/trunk/plugins/authentication</developerConnection>
-        <url>http://dev.lutece.paris.fr/viewvc/portal/trunk/plugins/authentication</url>
+        <connection>scm:svn:http://dev.lutece.paris.fr/svn/lutece/portal/trunk/plugins/authentication/module-mylutece-saml</connection>
+        <developerConnection>scm:svn:https://dev.lutece.paris.fr/svn/lutece/portal/trunk/plugins/authentication/module-mylutece-saml</developerConnection>
+        <url>http://dev.lutece.paris.fr/viewvc/portal/trunk/plugins/authentication/module-mylutece-saml</url>
     </scm>
 </project>
