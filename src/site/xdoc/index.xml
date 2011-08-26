@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document>
     <properties>
-        <title>Introduction</title>
+        <title>Module mylutece saml</title>
     </properties>
     <body>
-        <section name="Overview of the module">
+        <section name="Module mylutece saml">
             <p>
                 <img src="images/shibboleth.jpg" />
             </p>

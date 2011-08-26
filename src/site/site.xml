@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Lutece">
-    
-    <version />
-    
+<project>
     <body>
         <links>
             <item name="FR" href="/fr/index.html" />
@@ -15,11 +12,6 @@
         <menu name="SAML links">
             <item name="Shibboleth Official site" href="http://shibboleth.internet2.edu/" target="_blank"/>
         </menu>	    
-        
-        <menu name="Downloads" inherit="bottom">
-			     <item name="Released versions" href="../../stable_builds/plugins/module-mylutece-saml/"/>
-			     <item name="Nightly builds" href="../../nightly_builds/plugins/module-mylutece-saml/" />
-		    </menu>
         
         <menu ref="reports" />
     </body>
