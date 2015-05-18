@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><plug-in>
    <name>mylutece-saml</name>
    <class>fr.paris.lutece.plugins.mylutece.modules.saml.service.SAMLPlugin</class>
-   <version>2.0.2</version>
+   <version>2.0.3-SNAPSHOT</version>
    <description>module.mylutece.saml.module.description</description>
    <documentation/>
    <installation/>
