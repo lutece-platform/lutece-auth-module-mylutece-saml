@@ -13,6 +13,7 @@
     <packaging>lutece-plugin</packaging>
     <version>2.0.2-SNAPSHOT</version>
     <name>Lutece mylutece SAML module</name>
+    
     <repositories>
         <repository>
             <id>lutece</id>
@@ -20,13 +21,8 @@
             <url>http://dev.lutece.paris.fr/maven_repository</url>
             <layout>default</layout>
         </repository>
-        <repository>
-            <id>shibboleth.internet2.edu</id>
-            <name>Internet2</name>
-            <layout>default</layout>
-            <url>http://shibboleth.internet2.edu/downloads/maven2/module-mylutece-saml</url>
-        </repository>
     </repositories>
+    
     <dependencies>
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
@@ -37,28 +33,7 @@
         <dependency>
             <groupId>org.opensaml</groupId>
             <artifactId>opensaml</artifactId>
-            <version>2.1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>1.5.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>log4j-over-slf4j</artifactId>
-            <version>1.5.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>jcl-over-slf4j</artifactId>
-            <version>1.5.2</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
+            <version>2.6.4</version>
         </dependency>
     </dependencies>
 
@@ -73,4 +48,5 @@
         <developerConnection>scm:git:https://github.com/lutece-platform/lutece-auth-module-mylutece-saml.git</developerConnection>
         <url>https://github.com/lutece-platform/lutece-auth-module-mylutece-saml.git</url>
     </scm>
+    
 </project>
